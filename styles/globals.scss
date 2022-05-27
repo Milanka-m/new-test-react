@@ -1,0 +1,81 @@
+@import url(../vendor/normalize.css);
+
+
+.slick-slider {
+	width: 100%;
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	user-select: none;
+	touch-action: pan-y;
+	z-index: 10;
+}
+
+.slick-prev,
+.slick-next {
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	bottom: 10%;
+	cursor: pointer;
+	background: transparent;
+	border: 1px solid #fff;
+	z-index: 10;
+	transition: 350ms ease all;
+	&:hover {
+		background: #fff;
+	}
+}
+.slick-prev {
+	left: 61px;
+}
+.slick-next {
+	right: 61px;
+}
+
+.slick-list {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	margin: 0;
+	padding: 0;
+	&:focus {
+		outline: none;
+	}
+	&.dragging {
+		cursor: pointer;
+		cursor: hand;
+	}
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+	transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slick-slide {
+	position: relative;
+	box-sizing: border-box;
+	img {
+		display: block;
+	}
+	&.slick-loading img {
+		display: none;
+	}
+	.slick-initialized & {
+		display: block;
+	}
+
+	.slick-loading & {
+		visibility: hidden;
+	}
+}
+

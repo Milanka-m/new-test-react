@@ -1,0 +1,58 @@
+.users {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.users__container {
+    width: calc(100% - 122px);
+    padding-top: 30px;
+}
+
+.users__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.users__title {
+    font-family: 'Alegreya Sans SC';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000;
+}
+
+.users__count {
+    font-family: 'Alegreya Sans SC';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    span {
+        color: #e0e0e0;
+    }
+}
+
+.users__content {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.users__cardLink {
+    display: block;
+    margin-top: 20px;
+    color: #000;
+    padding: 10px 50px;
+    border: 1px solid #000;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    transition: 350ms ease all;
+    &:hover {
+        background: #000;
+        color: #fff;
+    }
+}

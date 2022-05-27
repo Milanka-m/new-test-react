@@ -1,0 +1,51 @@
+.userPost {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.userPost__container {
+    width: calc(100% - 122px);
+    padding: 40px 0;
+}
+
+.userPost__title {
+    font-family: 'Alegreya Sans SC';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+.userPost__text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    padding-bottom: 40px;
+}
+
+.userPost__heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.userPost__btn {
+    text-align: center;
+    display: block;
+    padding: 15px 50px;
+    background: #101010;
+    border: 1px solid #0d1e4b;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    transition: 350ms ease all;
+    &:hover {
+        background: #fff;
+        color: #000;
+    }
+}

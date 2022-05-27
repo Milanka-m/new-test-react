@@ -1,0 +1,129 @@
+.concertVenue {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.concertVenue__container {
+    width: calc(100% - 122px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.concertVenue__content {
+    padding-right: 60px;
+    max-width: 370px;
+}
+
+.concertVenue__title {
+    font-family: 'Alegreya Sans SC';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 16px;
+}
+
+.concertVenue__description {
+    border-left: 1px solid #dadada;
+    padding-left: 42px;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 40%;
+        left: -3px;
+        width: 5px;
+        height: 50px;
+        display: block;
+        background: #0d1e4b;
+    }
+}
+
+.concertVenue__subtitle {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.concertVenue__text {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #939393;
+}
+
+.concertVenue__form {
+    border: 1px solid #dadada;
+    width: 560px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.concertVenue__formTitle {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    color: #000;
+}
+
+.concertVenue__formInputContainer {
+    margin: 0 auto;
+    border: 0;
+    padding: 9px 0 16px;
+}
+
+.concertVenue__formSection {
+    height: 134px;
+    position: relative; 
+    border: 1px solid #0d1e4b;
+}
+
+.concertVenue__formInput {
+    padding: 10px 20px;
+    border: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 1.2;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    color: #969696;
+    &:focus {
+        outline: none;
+    }
+}
+
+.concertVenue__formHandlers {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    font-size: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.concertVenue__formButton {
+    text-align: center;
+    display: block;
+    padding: 10px 20px;
+    background: #101010;
+    border: 1px solid #0d1e4b;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    color: #fff;
+    transition: 350ms ease all;
+    &:hover {
+        background: #fff;
+        color: #000;
+    }
+}

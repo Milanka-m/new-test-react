@@ -1,0 +1,45 @@
+.card {
+    padding: 14px 17px;
+    border: 1px solid #dadada;
+    transition: 350ms ease all;
+    &:hover {
+        border: 1px solid #000;
+    }
+}
+
+.card__title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.card__text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, .4);
+    padding-top: 4px;
+}
+
+.card__navLink {
+    margin-top: 35px;
+    text-align: center;
+    display: block;
+    padding: 10px 20px;
+    background: #101010;
+    border: 1px solid #0d1e4b;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    color: #fff;
+    transition: 350ms ease all;
+    &:hover {
+        background: #fff;
+        color: #000;
+    }
+}

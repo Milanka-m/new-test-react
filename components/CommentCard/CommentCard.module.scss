@@ -1,0 +1,35 @@
+.comment {
+    height: 180px;
+    padding: 17px 35px;
+    border: 1px solid #dadada;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.comment__email {
+    align-self: flex-end;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000;
+    padding-top: 20px;
+}
+
+.comment__title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.comment__text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.41);
+}
